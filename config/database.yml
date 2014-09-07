@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  database: sketch_dev
+  username: kangmo
+  password: test
+  encoding: utf8
+  host: localhost
+  pool: 5
+
+production:
+  adapter: postgresql
+  database: sketch_prod
+  username: kangmo
+  password: poop
+  encoding: utf8
+  host: localhost
+  pool: 5
+
+test:
+  adapter: postgresql
+  database: sketch_test
+  username: kangmo
+  password: test
+  encoding: utf8
+  host: localhost
+  pool: 5
