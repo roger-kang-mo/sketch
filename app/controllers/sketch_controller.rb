@@ -1,6 +1,6 @@
 class SketchController < ApplicationController
 
-  responds_to :json
+  respond_to :json
 
   def index
 
