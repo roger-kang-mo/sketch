@@ -1,6 +1,6 @@
-#sketch_main {
+#sqetch_main {
 
-  #sketches {
+  #sqetches {
     .row {
       margin-left: 25%;
     }
@@ -10,7 +10,7 @@
     // color: #70B8FF;
   }
 
-  .sketch {
+  .sqetch {
     height: 105px;
     // color: #fff;
     border: #B2E6FF 1px solid;
@@ -19,8 +19,8 @@
 }
 
 @media (max-width: 750px) {
-  #sketch_main {
-    #sketches .row {
+  #sqetch_main {
+    #sqetches .row {
       margin-left:10px;
     }
   }

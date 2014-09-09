@@ -1,13 +1,12 @@
-console.log "sup"
-
-angular.module("SketchBox", [
+angular.module("SqetchBox", [
   "ngRoute"
   "templates"
-]).config ($routeProvider, $locationProvider) ->
-  $routeProvider.when "/",
-    templateUrl: "home.html"
-    controller: "HomeCtrl"
+])#.config ($routeProvider, $locationProvider) ->
+  # $routeProvider.when "/",
+  #   templateUrl: "home.html"
+  #   controller: "HomeCtrl"
+  #   # resolve: (Sketch)
 
-  $locationProvider.html5Mode true
+  # $locationProvider.html5Mode true
 
 
